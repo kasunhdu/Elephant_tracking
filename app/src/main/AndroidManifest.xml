@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.my_application_with_chatgtp">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:label="Elephant Tracking"
+        android:supportsRtl="true"
+
+
+        android:icon="@mipmap/ic_launcher"
+
+
+        android:theme="@style/Theme.My_Application_with_chatgtp">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAwab5PYpb2GPOGSQgJlE7u4IXNx35GiK4" />
+
+        <!-- Main Activity -->
+
+
+    </application>
+
+</manifest>

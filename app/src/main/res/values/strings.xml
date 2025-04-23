@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Elephant Tracking</string>
+    <string name="ElephantButton">Elephant!</string>
+</resources>

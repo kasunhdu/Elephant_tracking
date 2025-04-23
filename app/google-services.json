@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986918845084",
+    "project_id": "elephantlocation",
+    "storage_bucket": "elephantlocation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986918845084:android:fd1ca9d6d79a356bc20b59",
+        "android_client_info": {
+          "package_name": "com.example.my_application_with_chatgtp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRrNsPVr0qFhyHjZs30Yco8oYAhFX6F70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
